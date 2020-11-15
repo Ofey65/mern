@@ -10,6 +10,7 @@ import cookieParser from 'cookie-parser'
 import Template from '../template'
 import userRoutes from './routes/user.routes'
 import authRoutes from './routes/auth.routes'
+import artRoutes from './routes/art.routes'
 
 // Serving static files **
 import path from 'path'
@@ -37,6 +38,8 @@ app.get('/', (req,res) => {
 app.use('/', userRoutes)
 
 app.use('/', authRoutes)
+
+app.use('/', artRoutes)
 
 app.use((err, req, res, next) => {
     if (err.name === 'UnauthorizedError'){
