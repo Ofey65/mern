@@ -6,7 +6,7 @@ adding your own code.
 
 ## Quick setup and install
  
-* In order to run this code you need first to install **npm** and **git** (indeed you must to install **mongodb** too
+* In order to run this code you need first to install **npm** and **git** (indeed you must to install **mongodb** 
  to manage a local database) buddy so google them 
 and install them.
 
